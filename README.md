@@ -1,5 +1,3 @@
-![foreground_frames_AVGFrame](https://github.com/Sagnick0907/Background-Extraction-using-GMM/assets/76872499/ce2d723f-3a36-4c23-8e0b-c28656a946e1)# Background-Extraction-using-GMM
-
 ## Table of Content
   * [Demo](#demo)
   * [Overview](#overview)
@@ -8,10 +6,10 @@
   * [Technologies Used](#technologies-used)
 
 ## Demo
-1. GIF generated using Foreground Frames from calcuating using mean training frames.
-![foreground_frames_AVGFrame](https://github.com/Sagnick0907/Background-Extraction-using-GMM/assets/76872499/0fa2d524-c73e-4332-ab07-1f723fbdbba2)
-2.  GIF generated using Foreground Frames from calcuating using GMM.
-![foreground_frames_restored](https://github.com/Sagnick0907/Background-Extraction-using-GMM/assets/76872499/ca7a448c-5cab-46ed-aed9-db417d5ade5c)
+1. GIF generated using Foreground Frames from calcuating using mean training frames.  
+![foreground_frames_AVGFrame](https://github.com/Sagnick0907/Background-Extraction-using-GMM/assets/76872499/0fa2d524-c73e-4332-ab07-1f723fbdbba2)  
+2.  GIF generated using Foreground Frames from calcuating using GMM.  
+![foreground_frames_restored](https://github.com/Sagnick0907/Background-Extraction-using-GMM/assets/76872499/ca7a448c-5cab-46ed-aed9-db417d5ade5c)  
   
 ## Overview  
 We attempted to solve the task of background subtraction using Multivariate Gaussian Mixture Models. We extracted the background image from a given set of training frames, and use the extracted background to display foreground objects in the test frames by subtracting that background image and then thresholding it accordingly.
